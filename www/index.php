@@ -10,18 +10,7 @@
     <!--  NAVIGATION BAR -->
 <body class="body">
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="cars.html">Cars</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <div class="search-box">
-                    <input type="text" placeholder="Search...">
-                    <button class="button" type="submit">Go</button>
-                </div>
-            </ul>
-        </nav>
+        <?php include 'navbar.php'; ?>
     </header>
 
     <!-- MAIN CONTENT -->
@@ -69,9 +58,8 @@
 </main>
 
 
-    <footer class="footer">
-        <p>Created by Dimitris Panagiotidis</p>
-        <p>Student number : 203156</p>
+    <footer>
+        <?php include 'footer.php'; ?>
     </footer>
     
 </body>

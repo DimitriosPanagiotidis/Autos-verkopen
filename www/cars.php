@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
 </head>
+
 <body class="body">
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="cars.html">Cars</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <div class="search-box">
-                    <input type="text" placeholder="Search...">
-                    <button class="button" type="submit">Go</button>
-                </div>
-            </ul>
-        </nav>
-
+        <?php include 'navbar.php'; ?>
     </header>
     <main>
-       <!-- Car number 1 -->
+        <!-- Car number 1 -->
         <section class="car-listing">
             <div class="car">
                 <h2>Audi TT 2018</h2>
@@ -36,7 +26,7 @@
                 <button class="button">More Information</button>
             </div>
             <!-- Car number 2 -->
-            <div class="car">   
+            <div class="car">
                 <h2>Peugeot 207 CC 2010</h2>
                 <img src="cars/Peugeot207cc.png" alt="Peugeot 207 CC">
                 <p>Price: €20.000</p>
@@ -44,7 +34,7 @@
                 <p>Color: Black</p>
                 <p>Description: A sporty convertible with a powerful engine and sleek French design.</p>
                 <button class="button">More Information</button>
-                
+
             </div>
             <!-- Car number 3 -->
             <div class="car">
@@ -66,7 +56,7 @@
                 <p>Description: A sporty but also family car with a lot of power under the hood. Easily 500 horse power. </p>
                 <button class="button">More Information</button>
             </div>
-           
+
         </section>
     </main>
 
@@ -75,4 +65,5 @@
         <p>Student number : 203156</p>
     </footer>
 </body>
+
 </html>
